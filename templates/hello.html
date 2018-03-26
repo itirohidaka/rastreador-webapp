@@ -1,0 +1,9 @@
+<!doctype html>
+<title>Hello from Flask</title>
+{% if username %}
+  <h1>Service Username {{ username }}!</h1><br>
+  <h1>Service Password {{ password }}!</h1><br>
+  <h1>Service URL {{ url }}!</h1><br>
+{% else %}
+  <h1>Hello, World!</h1>
+{% endif %}
